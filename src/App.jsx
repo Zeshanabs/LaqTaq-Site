@@ -4,6 +4,8 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Navbar from './components/Navbar'
 import SignIn from './components/SignIn'
+import Hame from './components/Hame'
+
 
 function App() {
   const [count, setCount] = useState(0)
@@ -12,6 +14,7 @@ function App() {
     <>
     <Navbar/>
     <SignIn/>
+    <Hame/>
     </>
   )
 }

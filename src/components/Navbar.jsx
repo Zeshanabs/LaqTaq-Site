@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Navbar = () => {
   return (
@@ -10,6 +11,7 @@ const Navbar = () => {
         <div className='flex list-none'>
         <li className='space-x-3'>
             <a href="#" className='hover:font-bold hover:border border-orange-600 rounded-full p-2 hover:bg-orange-400'>Home</a>
+            <link rel="stylesheet" href="" />
             <a href="#" className='hover:font-bold hover:border border-orange-600 rounded-full p-2 hover:bg-orange-400'>Product</a>
             <a href="#" className='hover:font-bold hover:border border-orange-600 rounded-full p-2 hover:bg-orange-400'>ContactUs</a>
             </li>
